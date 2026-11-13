@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER SCAN PRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>CYBER SCAN <span>PRO</span></h1>
+    <p>ADVANCED WEBSITE SECURITY SCANNER</p>
+</header>
+
+<main>
+    <section class="scanner">
+        <h2>🛡️ فحص أمان المواقع</h2>
+        <p>أدخل رابط الموقع لبدء التحليل الأمني</p>
+
+        <input id="target" type="url"
+        placeholder="https://example.com"
+        dir="ltr">
+
+        <button onclick="startScan()">START SCAN</button>
+
+        <div class="progress-box" id="progressBox">
+            <div id="progress"></div>
+        </div>
+
+        <p id="status"></p>
+    </section>
+
+    <section id="results" class="results">
+        <h2>📊 نتائج الفحص</h2>
+        <div id="output"></div>
+    </section>
+
+    <section id="details" class="details">
+        <h2>تفاصيل المشكلة</h2>
+        <div id="detailContent"></div>
+        <button onclick="closeDetails()">رجوع</button>
+    </section>
+</main>
+
+<footer>
+    CYBER SCAN PRO © 2026
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
