@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #050a08;
+    color: #00ff88;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 35px 10px;
+    background: #08140e;
+    border-bottom: 1px solid #00ff88;
+}
+
+header h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+header span {
+    color: white;
+}
+
+header p {
+    color: #8ba99a;
+}
+
+main {
+    width: 90%;
+    max-width: 750px;
+    margin: 40px auto;
+}
+
+.scanner, .results, .details {
+    background: #0b1710;
+    border: 1px solid #087d47;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px #003d20;
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    margin: 20px 0;
+    background: #020805;
+    border: 1px solid #00ff88;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #00ff88;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+}
+
+.progress-box {
+    display: none;
+    height: 10px;
+    background: #15251b;
+    margin-top: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#progress {
+    width: 0;
+    height: 100%;
+    background: #00ff88;
+    transition: width .3s;
+}
+
+.results, .details {
+    display: none;
+}
+
+.card {
+    background: #061009;
+    border: 1px solid #174d30;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.card h3 {
+    color: #00ff88;
+}
+
+.card a {
+    color: #00ff88;
+    direction: ltr;
+    display: block;
+    overflow-wrap: anywhere;
+    margin: 12px 0;
+}
+
+.low {
+    color: #ffcc00;
+}
+
+.high {
+    color: #ff5555;
+}
+
+footer {
+    padding: 25px;
+    color: #668574;
+}
